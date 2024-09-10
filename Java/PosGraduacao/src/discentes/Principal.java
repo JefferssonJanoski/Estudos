@@ -1,4 +1,5 @@
 package discentes;
+import discentes.AlunoSuperior;
 import discentes.Aluno;
 import discentes.AlunoSuperior;
 
@@ -8,9 +9,10 @@ public class Principal {
 		// TODO Auto-generated method stub
 		AlunoSuperior aluno = new AlunoSuperior();
 		
-		aluno.nome = "Jeffersson";
-		aluno.teste = 9;
-		aluno.prova = 10;
+		//aluno.nome = "Jeffersson";
+		aluno.setNome("Jeffersson");
+		aluno.setTeste(9);
+		aluno.setProva(10);
 		
 		System.out.println(aluno.nome + "\n" + aluno.getMedia());
 	}
