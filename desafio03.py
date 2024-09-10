@@ -24,5 +24,5 @@ def main():
     print('No dia {} tivemos o maior faturamento: R${:.2f}'.format(dia_maior+1, maior))
     print('Quantidade de dias que faturamos acima da média:', dias_acima_media)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

@@ -9,7 +9,7 @@ def pertence_fibonacci(num):
         a, b = b, a + b
     return False
 
-numero = int(input("Informe um número: "))
+numero = int(input('Informe um número: '))
 
 if pertence_fibonacci(numero):
     print('\nO número {} pertence à sequência de Fibonacci.'.format(numero))
