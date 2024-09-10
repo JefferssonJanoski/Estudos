@@ -1,5 +1,6 @@
 def pertence_fibonacci(num):
-    a, b = 0, 1
+    a, b = 0, 1 #inicio da sequencia
+    
     if num == 0 or num == 1:
         return True
     
